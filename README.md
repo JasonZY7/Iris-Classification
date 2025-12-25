@@ -7,7 +7,7 @@ Logistic Regression achieved 96.67% accuracy and Decision Tree achieved 93.33% a
 
 
 2. Which class is most often confused and why?<br />
-Versicolor and virginica are most often confused. Logistic Regression misclassified  one versicolor as virginica, while Decision Tree made two errors that one in each direction between these classes. This happens because these two species have significant overlap in all measurements, particularly in petal length and width (1.0-1.8 cm vs. 1.4-2.5 cm), while setosa is completely separable with much smaller petals.
+Versicolor and virginica are most often confused. Logistic Regression misclassified  one versicolor as virginica, while Decision Tree made two errors that one in each direction between these classes. This happens because these two species have significant overlap in all measurements, particularly in petal length and width, while setosa is completely separable with much smaller petals.
 
 3. One realistic idea to improve results:<br />
 Adding engineered features such as petal_area (petal length × petal width) could capture non-linear relationships between measurements that may help distinguish versicolor from virginica, hence improve the results.
